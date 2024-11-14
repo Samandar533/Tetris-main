@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 200;
+  font-family: "Sen", sans-serif;
+  box-sizing: border-box;
+  /* outline: 2px solid red; */
+}
+
+
+body { 
+  background-color:  rgb(5, 26, 94);
+}
+
+.tetris-playground {
+  justify-self: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #a1a1a1;
+}
